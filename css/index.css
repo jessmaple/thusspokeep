@@ -12,6 +12,7 @@ a {
 }
 html {
   margin: 0;
+  padding: 0;
   color: white;
   background-color: #cfbb86;
   display: flex;
@@ -20,28 +21,20 @@ html {
  
 }
 
+body{
+    background-color: #cfbb86;  
+}
+
 ''  z-index: -1;
 }
-header {
-    font-family: myriad-pro, sans-serif;
-    font-weight: 600;
-    text-align: center;
-    margin: 3em 3em 0 3em;
-    width: 100%;
-    height: 100%;
+
+.jumbotron {
+margin: 0;
+margin-bottom: 0;
+padding: 0;
+
 }
-header h2 {
-    color: white;
-    -webkit-text-stroke: 1px #fffff1;
-    font-size: 32px;
-    text-align: center;
-}
-header img {
-    width: 100%;
-    margin: 3em 3em 0 3em;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    
-}
+
 
 .view {
     display: flex;
@@ -63,11 +56,10 @@ header img {
     line-height: 3em;
 }
 .bottom-links {
-    position:relative;
-    text-align:center;
-    font-size:.8em;
-    padding: 23px 0;
-    margin-top: 3em;
+    position: flex;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
   }
 .bottom-links li{
     display: flex;
@@ -100,14 +92,7 @@ audio {
     html {
         background-size: 50px;
     }
-    header h2 {
-        font-size: 24px;
-        margin: 10px 1em 0 1em;
-    }
-    header img {
-        /* margin: 3em 1em 0 1em; */
-        margin: -10px 1em 0 1em;
-    }
+   
     audio {
         width: 70vw;
     }
@@ -172,12 +157,16 @@ audio {
     display: flex;
     justify-content: center;
     margin: 0;
+    background-color: #cfbb86;
+    padding: 0; 
+
 }
 iframe {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: #cfbb86;
 
 }
 
