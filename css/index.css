@@ -21,6 +21,10 @@ html {
  
 }
 
+h1 {
+    padding: 10px;
+}
+
 body{
     background-color: #cfbb86;  
 }
@@ -35,7 +39,9 @@ padding: 0;
 
 }
 
-
+.links {
+    padding: 5px;
+}
 .view {
     display: flex;
     justify-content: center;
