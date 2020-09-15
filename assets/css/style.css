@@ -1,14 +1,19 @@
 
 html {
-    background: #aa835a;
-    height: 5em;
-    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
 }
 
 #hero {
   height: 100vh;
   width: 100%;
   background: #aa835a;
+  margin: 0 0 0 0;
+  
 }
 
 #hero video {
@@ -18,7 +23,7 @@ html {
   margin: 0;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 4;
 }
 
 header img {
@@ -29,5 +34,6 @@ header img {
 
 header h2 {
     display: block;
-    
+    background: #aa835a;
+    text-align: center; 
 }
