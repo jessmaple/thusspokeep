@@ -11,7 +11,7 @@ html {
 #hero {
   height: 100vh;
   width: 100%;
-  background: #aa835a;
+  background: black;
   margin: 0 0 0 0;
   
 }
@@ -34,6 +34,15 @@ header img {
 
 header h2 {
     display: block;
-    background: #aa835a;
+    background: black;
     text-align: center; 
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: black;
 }
