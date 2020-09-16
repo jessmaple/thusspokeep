@@ -112,52 +112,20 @@ audio {
   text-align: left;
 }
 
-@media only screen and (max-width: 850px) {
-    html {
-        background-size: 50px;
-    }
-   
-    audio {
-        width: 70vw;
-    }
 
-}
 @media only screen and (max-width: 500px) {
     /* .title {
         font-size: 32px;
         cursor: pointer;
     } */
+
+    
     html {
         background-size: 30px;
     }
    
-    iframe {
-        /* max-width: 280px !important;
-        display: flex !important;
-        justify-content: center !important;
-        margin: 2em 2em 2em 3em !important; */
-    }
-}
-/* @media only screen and (min-width: 1300px) {
-    header img{
-        width: 60vw;
-    }
-} */
-/* @media only screen and (max-width: 1370px) {
-    .view {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .view li {
-      width: auto;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-} */
 
+}
 .break {
     display: flex;
     justify-content: center;
