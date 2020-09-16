@@ -123,10 +123,10 @@ audio {
 
 }
 @media only screen and (max-width: 500px) {
-    .title {
+    /* .title {
         font-size: 32px;
         cursor: pointer;
-    }
+    } */
     html {
         background-size: 30px;
     }
@@ -138,12 +138,12 @@ audio {
         margin: 2em 2em 2em 3em !important; */
     }
 }
-@media only screen and (min-width: 1300px) {
+/* @media only screen and (min-width: 1300px) {
     header img{
         width: 60vw;
     }
-}
-@media only screen and (max-width: 1370px) {
+} */
+/* @media only screen and (max-width: 1370px) {
     .view {
         display: flex;
         justify-content: center;
@@ -156,7 +156,8 @@ audio {
       justify-content: center;
       flex-direction: column;
     }
-}
+} */
+
 .break {
     display: flex;
     justify-content: center;
