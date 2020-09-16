@@ -23,6 +23,8 @@ html {
 
 img {
     justify-content: center;
+    display:flex;
+    
 }
 h1 {
     padding: 10px;
