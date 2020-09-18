@@ -6,10 +6,12 @@
     box-sizing: border-box;
 }
 a {
-    text-decoration: none;
-  text-decoration-color: #ffffff;
-  cursor: pointer;
+  text-decoration: none;
+  text-decoration-color: black;
+  color: inherit;
+
 }
+
 html {
   margin: 0;
   padding: 0;
@@ -25,6 +27,12 @@ h1 {
     padding: 10px;
 }
 
+h3 {
+     font-family: poppins,sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     
+}
 body{
     background-color: #cfbb86;  
 }
@@ -255,4 +263,6 @@ iframe {
       }
     }
   }
+
+
 
