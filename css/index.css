@@ -56,12 +56,13 @@ body{
     flex-direction: column;
     align-content: center;
     margin: auto;
-    width: 70vw;
+    width: 100%;
+
 
 }
 .view li {
     font-family: myriad-pro, sans-serif;
-    width: 56%;
+    width: 100%;
     justify-content: center;
     list-style: none;
     align-self: center;
@@ -87,7 +88,7 @@ body{
 }
 
 .jumbotron img {
-    width: 70vw;
+    width: 100%;
     margin-top: 2%;
     justify-content: center;
     text-align: center;
