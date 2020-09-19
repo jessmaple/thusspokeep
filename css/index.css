@@ -41,7 +41,9 @@ body{
 }
 
 .links {
-    padding: 5px;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .view {
     display: flex;
@@ -229,7 +231,7 @@ iframe {
   .navbar-form-search {
     position: relative;
     .form-control {
-      width: 250px;
+      width: 100%;
     }
     .btn {
       border: 0;
@@ -247,7 +249,7 @@ iframe {
     .search-form-container {
       text-align: right;
       position: absolute;
-      width: 300px;
+      width: 100%;
       overflow: hidden;
       background: #fff;
       right: 60px;
