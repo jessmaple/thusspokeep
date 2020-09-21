@@ -258,7 +258,7 @@ iframe {
 }
 
 .hylo {
-  position: fixed;
+  position: flex;
   bottom: 0;
   padding: 10px;
   font-size: 10px;
